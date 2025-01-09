@@ -43,7 +43,7 @@ async def main() -> None:
         service.send_msg(toilet, MessageType.CLEAN)
     )
 
-    # run the programs
+    # run the programs.
     await service.run_program(run_parallel(wake_up, sleep))
 
 
